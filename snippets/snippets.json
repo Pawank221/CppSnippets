@@ -1,0 +1,14 @@
+{
+    "Cpp for starter template": {
+        prefix: "!cpp",
+        "body": [
+            "#include<iostream>",
+            "using namespace std;",
+            "$0",
+            "int main(){",
+                "cout<<\"Hello World\n\";",
+            "}"
+        ],
+        "description": "creates hello world cpp template"
+    }
+}

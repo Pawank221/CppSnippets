@@ -1,0 +1,26 @@
+{
+    "name": "cppsnippets",
+    "displayName": "cppsnippets",
+    "description": "simple cpp snippet generator",
+    "version": "0.0.1",
+    "publisher": "pawan",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pawank221/CppSnippets"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
